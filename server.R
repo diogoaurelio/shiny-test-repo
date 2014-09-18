@@ -4,8 +4,9 @@ library(shiny)
 #For ggplot2 Graphics Library
 library(ggplot2)
 
-fileUrl <- "http://github.com/diogoaurelio/intro-datascience/blob/master/kaggle-titanic-problem/data/train.csv"
-trainData <- read.csv(url(fileUrl))
+#fileUrl <- "http://github.com/diogoaurelio/intro-datascience/blob/master/kaggle-titanic-problem/data/train.csv"
+
+trainData <- read.csv("./data/train.csv")
 
 dataset <- trainData
 

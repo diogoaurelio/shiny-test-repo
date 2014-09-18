@@ -3,8 +3,9 @@ library(shiny)
 library(ggplot2)
 
 #dataset <- diamonds
-fileUrl <- "http://github.com/diogoaurelio/intro-datascience/blob/master/kaggle-titanic-problem/data/train.csv"
-trainData <- read.csv(url(fileUrl))
+#fileUrl <- "http://github.com/diogoaurelio/intro-datascience/blob/master/kaggle-titanic-problem/data/train.csv"
+#trainData <- read.csv(url(fileUrl))
+trainData <- read.csv("./data/train.csv")
 
 dataset <- trainData
 
