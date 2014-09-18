@@ -72,7 +72,7 @@ shinyUI(fluidPage(
 	
 	 mainPanel(
 		h2('Basic Introductory Exploratory Analysis'),
-		p('Please note that this is a very basic App intended to provide some introductory exploratory analysis.'),
+		p('Please note that this is a very basic App intended to provide some introductory (really, really basic) exploratory analysis.'),
 		p("It uses solely the training dataset on Kaggle's Titanic challenge, which you can download here, or on Kaggle's page:"),
 		a("https://www.kaggle.com/c/titanic-gettingStarted"),
 		#img(src ="./figures/titanic.png", height = 200, width = 200),
@@ -110,6 +110,8 @@ shinyUI(fluidPage(
 		tags$br(),
 		tags$br(),
 		h4('Training Dataset'),
+		p('Finally, you can view the raw training dataset and play with it as well.'),
+		tags$br(),
 		tabPanel('trainData', dataTableOutput('mytable1'))
 				
 	 )
