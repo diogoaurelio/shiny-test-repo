@@ -35,7 +35,7 @@ shinyUI(pageWithSidebar(
 
 		#demo app for Shiney.io
 		sliderInput('sampleSize', 'sampleSize', min=1, max=nrow(dataset),
-				value=min(1000, nrow(dataset)), step=50, round=0),
+				value=min(100, nrow(dataset)), step=100, round=0),
 		selectInput('x', 'X', names(dataset)),
 		selectInput('y', 'Y', names(dataset)),
 		selectInput('color', 'Color', c('None', names(dataset))),

@@ -1,4 +1,7 @@
 #server.R
+
+#runGitHub( "shiny-test-repo", "diogoaurelio") 
+
 library(shiny)
 
 #For ggplot2 Graphics Library
